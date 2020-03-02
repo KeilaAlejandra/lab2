@@ -1,4 +1,6 @@
 /* Estilos para aplicaciones auxiliares de validación
+estilos 1 label 
+estilo 2 cajas
 -----------------------------------------------------------*/
 .field-validation-error
 {
@@ -25,4 +27,14 @@
 .validation-summary-valid
 {
     display: none;
+}
+
+fildset label
+{
+    display: block;
+}
+fildset imput 
+{
+    display: block;
+    margin-bottom :5px;
 }
