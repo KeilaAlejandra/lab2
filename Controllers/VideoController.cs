@@ -41,13 +41,15 @@ namespace MVCLaboratorio.Controllers
             //guarda el video 
             return RedirectToAction("Index","Video");
         }
-        public ActionResult Delete()//muestra
+        public ActionResult Delete(int idVideo)//muestra
         {
             return View();
         }
         [HttpPost]
         public ActionResult Delete(int idVideo)//guarda
         {
+            List<SqlParameter> Parametros = new List<SqlParameter>();
+            Parametros.Add(new SqlParameter("idVideo",@idVideo));
             return View();
         }
 

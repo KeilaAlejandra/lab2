@@ -4,10 +4,15 @@
 
 <html xmlns="http://www.w3.org/1999/xhtml" >
 <head runat="server">
-    <title>Index</title>
+    <title>Delete</title>
 </head>
 <body>
-    <h1>LISTA DE VIDEO REGISTRADOS </h1>
+   <form action="/" method="post">
+   <label for="delete">Eliminar:</label>
+   <input type="text" name="Delete" />
 
+   <input type="submit" name="Delete" value="Eliminar" />
+
+   </form>
 </body>
 </html>
