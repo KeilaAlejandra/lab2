@@ -16,8 +16,11 @@
     MENU DE OPCCIONES 
     </h1>
     <a href="/Video/Create">AGREGAR VIDEO </a>
+    <br />
     <a href="/Video/Delete">ELIMINAR VIDEO </a>
+    <br />
     <a href="/Video/Edit">MODIFICAR VIDEO</a>
+    <br />
     <a href="/Video/Index">VER VIDEOS </a>
 
 </body>

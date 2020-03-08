@@ -27,7 +27,7 @@ CREATE PROCEDURE SP_video_ACTUALIZAR
 @url varchar(100)
 AS
 BEGIN
-UPDATE video SET titulo= @titulo, repro = @repro, url = @url WHERE idVideo = @idVideo 
+UPDATE video SET titulo= @titulo, Repro = @Repro, url = @url WHERE idVideo = @idVideo 
 END
 EXEC SP_video_ACTUALIZAR 1, 'mau', 3, 'felipo' 
 

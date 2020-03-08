@@ -8,6 +8,17 @@
 </head>
 <body>
     <h1>LISTA DE VIDEO REGISTRADOS </h1>
+    Hay<%:((System.Data.DataTable)ViewData["DataVideo"]).Rows.Count %> Video
+    <hr />
+    <%foreach(System.Data.DataRow Video
+          in ((System.Data.DataTable)ViewData["DataVideo"]).Rows)
+           %>
+           <p><%:Video["titulo"].ToString() %></P>
+           <iframe width="560" height="315" src="<%:Video["url"].ToString() %>"
+            frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope;
+            picture-in-picture" allowfullscreen></iframe>
+        <%
+} %>
 
 </body>
 </html>

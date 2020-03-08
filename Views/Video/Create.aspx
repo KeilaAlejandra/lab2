@@ -7,7 +7,6 @@
     <title>REGISTRAR VIDEO</title>
     <meta charset="UTF-8">
   <meta name="description" content="ASP.NET MVC 2 CRUD Video">
-  //KEYWORDS PALABRAS CLAVES PARA LA BUSQUEDA
   <meta name="keywords" content="ASP.NET, MVC, FACPYA">
   <meta name="author" content="KEILA CASTRO">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -21,16 +20,16 @@
     <label for="idVideo">idVideo</label>
     <input type="text" name ="idVideo" />
 
-     <label for="Titulo">Titulo</label>
-    <input type="text" name ="Titulo" />
+     <label for="titulo">Titulo</label>
+    <input type="text" name ="titulo" />
 
-     <label for="repro">Reproducciones</label>
-    <input type="text" name ="Repro" />
+     <label for="reproducciones">Repro:</label>
+    <input type="text" name ="reproducciones" />
 
      <label for="url">Url</label>
     <input type="text" name ="url" />
 
-    <input type ="submit" name ="Repro" /> 
+    <input type ="submit" name ="Registrar" /> 
 
     </fieldset>
     </form>

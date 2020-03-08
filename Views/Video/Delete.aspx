@@ -7,12 +7,14 @@
     <title>Delete</title>
 </head>
 <body>
-   <form action="/" method="post">
-   <label for="delete">Eliminar:</label>
-   <input type="text" name="Delete" />
+   <form action="/Video/Delete" method="post">
+   <fieldset>
 
-   <input type="submit" name="Delete" value="Eliminar" />
+   <label for="idVideo">Eliminar:</label>
+   <input type="text" name="idVideo" />
 
+   <input type="submit" name="Delete" />
+</fieldset>
    </form>
 </body>
 </html>
